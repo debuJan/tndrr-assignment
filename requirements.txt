@@ -1,0 +1,8 @@
+--index-url https://download.pytorch.org/whl/cpu
+torch==2.6.0+cpu
+transformers
+peft
+sentence-transformers
+numpy
+fpdf2
+llama-cpp-python

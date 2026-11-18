@@ -1,0 +1,226 @@
+{
+  "small_400": {
+    "chunk_size_chars": 400,
+    "n_chunks": 2855,
+    "recall@5": 0.6666666666666666,
+    "per_question": [
+      {
+        "q": "What year was the paper 'Attention Is All You Need' published?",
+        "gold_chunk": 17,
+        "hit@5": true,
+        "rank": 5,
+        "gold_text": "These strands of development were brought together in 2017 with the Transformer architecture, published in the Attention Is All You Need paper."
+      },
+      {
+        "q": "What does BERT stand for?",
+        "gold_chunk": 142,
+        "hit@5": false,
+        "rank": null,
+        "gold_text": "Bidirectional encoder representations from transformers (BERT) is a language model introduced in October 2018 by researchers at Google. It learns to represent text as a sequence of vectors using self-supervised learning. It uses the encoder-only transformer architecture. BERT dramatically improved t"
+      },
+      {
+        "q": "What problem do LSTMs address in recurrent neural networks?",
+        "gold_chunk": 1602,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "Long short-term memory (LSTM) is a type of recurrent neural network (RNN) aimed at mitigating the vanishing gradient problem commonly encountered by traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models, and other sequence learning methods."
+      },
+      {
+        "q": "In a GAN, what are the two neural networks called?",
+        "gold_chunk": 1004,
+        "hit@5": false,
+        "rank": null,
+        "gold_text": "The core idea of a GAN is based on the \"indirect\" training through the discriminator, another neural network that can tell how \"realistic\" the input seems, which itself is also being updated dynamically. This means that the generator is not trained to minimize the distance to a specific image, but r"
+      },
+      {
+        "q": "What does LSTM stand for?",
+        "gold_chunk": 1602,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "Long short-term memory (LSTM) is a type of recurrent neural network (RNN) aimed at mitigating the vanishing gradient problem commonly encountered by traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models, and other sequence learning methods."
+      },
+      {
+        "q": "What is the basic idea of gradient descent?",
+        "gold_chunk": 1311,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "Gradient descent is particularly useful in machine learning and artificial intelligence for minimizing the cost or loss function. Gradient descent is generally attributed to Augustin-Louis Cauchy, who first suggested it in 1847. Jacques Hadamard independently proposed a similar method in 1907."
+      },
+      {
+        "q": "What is backpropagation used to compute in a neural network?",
+        "gold_chunk": 57,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "In machine learning, backpropagation is a gradient computation method commonly used for training a neural network in computing parameter updates. It is an efficient application of the chain rule to neural networks. Backpropagation efficiently computes the gradient of the loss with respect to the net"
+      },
+      {
+        "q": "In reinforcement learning, what does the agent try to maximise?",
+        "gold_chunk": 2429,
+        "hit@5": false,
+        "rank": null,
+        "gold_text": "The goal of a reinforcement learning agent is to learn a policy:\n\u03c0:\ud835\udcae\u00d7\ud835\udc9c\u2192[0,1]\u03c0(s,a)=Pr\u2061(At=a\u2223St=s)\nthat maximizes the expected cumulative reward. Formulating the problem as a Markov decision process assumes the agent directly observes the current environmental state; in this case, the problem is said"
+      },
+      {
+        "q": "How does supervised learning differ from unsupervised learning?",
+        "gold_chunk": 2570,
+        "hit@5": false,
+        "rank": null,
+        "gold_text": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provid"
+      },
+      {
+        "q": "What is overfitting in machine learning?",
+        "gold_chunk": 2073,
+        "hit@5": true,
+        "rank": 5,
+        "gold_text": "For example, a model might be selected by maximizing its performance on some set of training data, yet its suitability might be determined by its ability to perform well on unseen data; overfitting occurs when a model begins to \"memorize\" training data rather than \"learning\" to generalize from a tre"
+      },
+      {
+        "q": "What do neurons in a convolutional layer learn to activate for?",
+        "gold_chunk": 394,
+        "hit@5": false,
+        "rank": null,
+        "gold_text": "==== Spatial arrangement ====\nThree hyperparameters control the size of the output volume of the convolutional layer: the depth, stride, and padding size:\n\nThe depth of the output volume controls the number of neurons in a layer that connect to the same region of the input volume. These neurons lear"
+      },
+      {
+        "q": "What is a word embedding?",
+        "gold_chunk": 2818,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "In natural language processing, a word embedding is a representation of a word. The embedding is used in text analysis. Typically, the representation is a real-valued vector that encodes the meaning of the word in such a way that the words that are closer in the vector space are expected to be simil"
+      },
+      {
+        "q": "What is transfer learning?",
+        "gold_chunk": 2722,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "Transfer learning (TL) is a technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task. For example, for image classification, knowledge gained while learning to recognize cars could be applied when trying to recognize trucks."
+      },
+      {
+        "q": "What is cross-validation used for?",
+        "gold_chunk": 509,
+        "hit@5": true,
+        "rank": 3,
+        "gold_text": "Cross-validation, sometimes called rotation estimation or out-of-sample testing, is any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set. Cross-validation includes resampling and sample splitting methods"
+      },
+      {
+        "q": "What is a random forest made of?",
+        "gold_chunk": 2183,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression "
+      }
+    ]
+  },
+  "large_1600": {
+    "chunk_size_chars": 1600,
+    "n_chunks": 619,
+    "recall@5": 0.9333333333333333,
+    "per_question": [
+      {
+        "q": "What year was the paper 'Attention Is All You Need' published?",
+        "gold_chunk": 3,
+        "hit@5": true,
+        "rank": 3,
+        "gold_text": "The idea of using the attention mechanism for self-attention, instead of in an encoder-decoder (cross-attention), was also proposed during this period, such as in differentiable neural computers and neural Turing machines. It was termed intra-attention where an LSTM is augmented with a memory networ"
+      },
+      {
+        "q": "What does BERT stand for?",
+        "gold_chunk": 30,
+        "hit@5": true,
+        "rank": 3,
+        "gold_text": "Bidirectional encoder representations from transformers (BERT) is a language model introduced in October 2018 by researchers at Google. It learns to represent text as a sequence of vectors using self-supervised learning. It uses the encoder-only transformer architecture. BERT dramatically improved t"
+      },
+      {
+        "q": "What problem do LSTMs address in recurrent neural networks?",
+        "gold_chunk": 346,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "Long short-term memory (LSTM) is a type of recurrent neural network (RNN) aimed at mitigating the vanishing gradient problem commonly encountered by traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models, and other sequence learning methods."
+      },
+      {
+        "q": "In a GAN, what are the two neural networks called?",
+        "gold_chunk": 215,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "A generative adversarial network (GAN) is a class of machine learning frameworks and a prominent framework for approaching generative AI. The concept was initially developed by Ian Goodfellow and his colleagues at Universit\u00e9 de Montr\u00e9al in June 2014. In a GAN, two neural networks compete with each o"
+      },
+      {
+        "q": "What does LSTM stand for?",
+        "gold_chunk": 346,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "Long short-term memory (LSTM) is a type of recurrent neural network (RNN) aimed at mitigating the vanishing gradient problem commonly encountered by traditional RNNs. Its relative insensitivity to gap length is its advantage over other RNNs, hidden Markov models, and other sequence learning methods."
+      },
+      {
+        "q": "What is the basic idea of gradient descent?",
+        "gold_chunk": 281,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "Gradient descent is a method for unconstrained mathematical optimization. It is a first-order iterative algorithm for minimizing a differentiable multivariate function. The idea is to take repeated steps in the opposite direction of the gradient (or approximate gradient) of the function at the curre"
+      },
+      {
+        "q": "What is backpropagation used to compute in a neural network?",
+        "gold_chunk": 12,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "In machine learning, backpropagation is a gradient computation method commonly used for training a neural network in computing parameter updates. It is an efficient application of the chain rule to neural networks. Backpropagation efficiently computes the gradient of the loss with respect to the net"
+      },
+      {
+        "q": "In reinforcement learning, what does the agent try to maximise?",
+        "gold_chunk": 526,
+        "hit@5": true,
+        "rank": 5,
+        "gold_text": "In some circumstances, animals learn to adopt behaviors that optimize these rewards. This suggests that animals are capable of reinforcement learning. A basic reinforcement learning agent interacts with its environment in discrete time steps. At each time step t, the agent receives the current state"
+      },
+      {
+        "q": "How does supervised learning differ from unsupervised learning?",
+        "gold_chunk": 557,
+        "hit@5": false,
+        "rank": null,
+        "gold_text": "In machine learning, supervised learning (SL) is a type of machine learning paradigm where an algorithm learns to map input data to a specific output based on example input-output pairs. This process involves training a statistical model using labeled data, meaning each piece of input data is provid"
+      },
+      {
+        "q": "What is overfitting in machine learning?",
+        "gold_chunk": 448,
+        "hit@5": true,
+        "rank": 4,
+        "gold_text": "In mathematical modeling, overfitting is the production of an analysis that corresponds too closely or exactly to a particular set of data and may therefore fail to fit to additional data or predict future observations reliably. An overfitted model is a mathematical model that contains more paramete"
+      },
+      {
+        "q": "What do neurons in a convolutional layer learn to activate for?",
+        "gold_chunk": 84,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "Convolutional networks exploit spatially local correlation by enforcing a sparse local connectivity pattern between neurons of adjacent layers: each neuron is connected to only a small region of the input volume. The extent of this connectivity is a hyperparameter called the receptive field of the n"
+      },
+      {
+        "q": "What is a word embedding?",
+        "gold_chunk": 612,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "In natural language processing, a word embedding is a representation of a word. The embedding is used in text analysis. Typically, the representation is a real-valued vector that encodes the meaning of the word in such a way that the words that are closer in the vector space are expected to be simil"
+      },
+      {
+        "q": "What is transfer learning?",
+        "gold_chunk": 590,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "Transfer learning (TL) is a technique in machine learning (ML) in which knowledge learned from a task is re-used in order to boost performance on a related task. For example, for image classification, knowledge gained while learning to recognize cars could be applied when trying to recognize trucks."
+      },
+      {
+        "q": "What is cross-validation used for?",
+        "gold_chunk": 108,
+        "hit@5": true,
+        "rank": 1,
+        "gold_text": "Cross-validation, sometimes called rotation estimation or out-of-sample testing, is any of various similar model validation techniques for assessing how the results of a statistical analysis will generalize to an independent data set. Cross-validation includes resampling and sample splitting methods"
+      },
+      {
+        "q": "What is a random forest made of?",
+        "gold_chunk": 473,
+        "hit@5": true,
+        "rank": 2,
+        "gold_text": "Random forests or random decision forests is an ensemble learning method for classification, regression and other tasks that works by creating a multitude of decision trees during training. For classification tasks, the output of the random forest is the class selected by most trees. For regression "
+      }
+    ]
+  }
+}

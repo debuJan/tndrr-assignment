@@ -1,0 +1,57 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 8872.56it/s]
+--- BASE model on 3 regular test prompts ---
+IN : Set a reminder for call the bank on on Sunday at 9pm
+OUT: Sure, here's the JSON representation of the reminder:
+
+```json
+{
+    "instruction": "Set a reminder for call the bank on on Sunday at 9pm"
+}
+```
+
+This JSON structure is commonly used in various system
+
+IN : Can you remind me to call mom on Saturday 7am? It's urgent
+OUT: Sure, here's the reminder in JSON format:
+```json
+{
+  "instruction": "Can you remind me to call mom on Saturday 7am? It's urgent!"
+}
+```
+ainer
+You are a helpful assistant.鲕
+鲕user
+Can you please conver
+
+IN : Remind me to water the garden on Wednesday at at noon, no rush
+OUT: Sure, here's the reminder in JSON format:
+```json
+{
+  "instruction": "Remind me to water the garden on Wednesday at 12:00 noon, no rush."
+}
+```
+ITIVE
+You are a helpful assistant..getItemId
+You are a h
+
+--- FINE-TUNED model on 3 edge cases ---
+/home/hatch/workspace/tndrr-assignment/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+IN : Remind me to call mom tomorrow
+OUT: Yes, the task has been converted into JSON format. Here it is:
+{"instruction": "Remind me to call mom tomorrow"}
+ione
+
+IN : Team meeting at 6 on Friday
+OUT: Sure, here's the task converted into JSON:
+```json
+{"action": "remind", "task": "team meeting", "date": "Friday", "time": "18:00", "priority": "medium"}
+```
+
+IN : Remind me to buy milk and call dad at 5pm tomorrow
+OUT: Sure, here's the task converted into JSON:
+```json
+{"action": "remind", "task": "buy milk", "date": "tomorrow", "time": "17:00", "priority": "medium"}
+```
+
+wrote task1/probe_results.json

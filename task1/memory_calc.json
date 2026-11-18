@@ -1,0 +1,46 @@
+{
+  "model": "Qwen2.5-7B",
+  "config": {
+    "layers": 28,
+    "hidden": 3584,
+    "intermediate": 18944,
+    "heads": 28,
+    "kv_heads": 4,
+    "head_dim": 128
+  },
+  "total_params_B": 7.62,
+  "lora_rank": 8,
+  "lora_trainable_params": 20185088,
+  "lora_trainable_pct": 0.265,
+  "full_finetune": {
+    "weights_bf16_GB": 14.2,
+    "master_weights_fp32_GB": 28.4,
+    "adam_states_fp32_GB": 56.7,
+    "grads_bf16_GB": 14.2,
+    "grads_fp32_GB": 28.4,
+    "total_bf16_grads_GB": 113.5,
+    "total_fp32_grads_GB": 127.7
+  },
+  "lora": {
+    "base_weights_bf16_GB": 14.18,
+    "lora_weights_fp32_GB": 0.08,
+    "adam_states_fp32_GB": 0.15,
+    "lora_grads_fp32_GB": 0.08,
+    "activations_est_GB": 3.0,
+    "total_GB": 17.5
+  },
+  "qlora": {
+    "base_weights_NF4_GB": 3.55,
+    "lora_weights_fp32_GB": 0.08,
+    "adam_states_fp32_GB": 0.15,
+    "lora_grads_fp32_GB": 0.08,
+    "activations_est_GB": 1.5,
+    "total_GB": 5.3
+  },
+  "assumptions": [
+    "Mixed-precision AdamW: bf16 weights + fp32 master weights + fp32 Adam m/v.",
+    "LoRA r=8 on all 7 linear modules per layer (q,k,v,o,gate,up,down).",
+    "Activations estimated for batch 1, seq 2048; LoRA without grad checkpointing, QLoRA with it.",
+    "Excludes CUDA context / fragmentation overhead (~1 GB)."
+  ]
+}

@@ -1,0 +1,20 @@
+train=240 test=60
+loaded tokenizer for Qwen/Qwen2.5-0.5B
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:00<00:58,  4.98it/s]Loading weights:  27%|██▋       | 77/290 [00:00<00:00, 318.63it/s]Loading weights:  42%|████▏     | 122/290 [00:00<00:00, 267.00it/s]Loading weights:  54%|█████▍    | 157/290 [00:00<00:00, 149.04it/s]Loading weights: 100%|██████████| 290/290 [00:00<00:00, 297.83it/s]
+loaded Qwen/Qwen2.5-0.5B in bfloat16, RSS 408 MB
+
+--- evaluating BASE model ---
+base eval skipped (--skip-base); using completed run's numbers: exact-match 0.000, valid JSON 0.983 (task1/run1.log)
+/home/hatch/workspace/tndrr-assignment/.venv/lib/python3.12/site-packages/transformers/modeling_utils.py:3303: FutureWarning: `is_gradient_checkpointing` is deprecated and will be removed in v6. Use `is_activation_checkpointing` instead.
+  warnings.warn(
+trainable params: 1,081,344 || all params: 495,114,112 || trainable%: 0.2184
+epoch 1: avg loss 0.0919, RSS 2640 MB
+epoch 2: avg loss 0.0003, RSS 2674 MB
+epoch 3: avg loss 0.0002, RSS 2674 MB
+trained 180 steps in 949.1s
+
+--- evaluating FINE-TUNED model ---
+ft exact-match: 1.000, valid JSON: 1.000
+
+wrote task1/results.json + lora_adapter/

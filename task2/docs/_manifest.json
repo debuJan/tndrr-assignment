@@ -1,0 +1,177 @@
+[
+  {
+    "title": "Machine learning",
+    "file": "machine_learning.txt",
+    "words": 8697
+  },
+  {
+    "title": "Deep learning",
+    "file": "deep_learning.txt",
+    "words": 8257
+  },
+  {
+    "title": "Gradient descent",
+    "file": "gradient_descent.txt",
+    "words": 3032
+  },
+  {
+    "title": "Backpropagation",
+    "file": "backpropagation.txt",
+    "words": 4069
+  },
+  {
+    "title": "Attention (machine learning)",
+    "file": "attention_machine_learning.txt",
+    "words": 2504
+  },
+  {
+    "title": "Large language model",
+    "file": "large_language_model.txt",
+    "words": 8322
+  },
+  {
+    "title": "Natural language processing",
+    "file": "natural_language_processing.txt",
+    "words": 4410
+  },
+  {
+    "title": "Computer vision",
+    "file": "computer_vision.txt",
+    "words": 5801
+  },
+  {
+    "title": "Reinforcement learning",
+    "file": "reinforcement_learning.txt",
+    "words": 5298
+  },
+  {
+    "title": "Supervised learning",
+    "file": "supervised_learning.txt",
+    "words": 2588
+  },
+  {
+    "title": "Unsupervised learning",
+    "file": "unsupervised_learning.txt",
+    "words": 2117
+  },
+  {
+    "title": "Self-supervised learning",
+    "file": "self_supervised_learning.txt",
+    "words": 1687
+  },
+  {
+    "title": "Convolutional neural network",
+    "file": "convolutional_neural_network.txt",
+    "words": 9237
+  },
+  {
+    "title": "Recurrent neural network",
+    "file": "recurrent_neural_network.txt",
+    "words": 5055
+  },
+  {
+    "title": "Long short-term memory",
+    "file": "long_short_term_memory.txt",
+    "words": 2228
+  },
+  {
+    "title": "Generative adversarial network",
+    "file": "generative_adversarial_network.txt",
+    "words": 6079
+  },
+  {
+    "title": "Variational autoencoder",
+    "file": "variational_autoencoder.txt",
+    "words": 1741
+  },
+  {
+    "title": "Diffusion model",
+    "file": "diffusion_model.txt",
+    "words": 6203
+  },
+  {
+    "title": "Word embedding",
+    "file": "word_embedding.txt",
+    "words": 1500
+  },
+  {
+    "title": "BERT (language model)",
+    "file": "bert_language_model.txt",
+    "words": 2555
+  },
+  {
+    "title": "Prompt engineering",
+    "file": "prompt_engineering.txt",
+    "words": 2870
+  },
+  {
+    "title": "Fine-tuning (deep learning)",
+    "file": "fine_tuning_deep_learning.txt",
+    "words": 767
+  },
+  {
+    "title": "Transfer learning",
+    "file": "transfer_learning.txt",
+    "words": 605
+  },
+  {
+    "title": "Overfitting",
+    "file": "overfitting.txt",
+    "words": 2511
+  },
+  {
+    "title": "Regularization (mathematics)",
+    "file": "regularization_mathematics.txt",
+    "words": 2631
+  },
+  {
+    "title": "Cross-validation (statistics)",
+    "file": "cross_validation_statistics.txt",
+    "words": 4348
+  },
+  {
+    "title": "Feature engineering",
+    "file": "feature_engineering.txt",
+    "words": 1189
+  },
+  {
+    "title": "Decision tree",
+    "file": "decision_tree.txt",
+    "words": 2964
+  },
+  {
+    "title": "Random forest",
+    "file": "random_forest.txt",
+    "words": 3488
+  },
+  {
+    "title": "Support vector machine",
+    "file": "support_vector_machine.txt",
+    "words": 4791
+  },
+  {
+    "title": "K-nearest neighbors algorithm",
+    "file": "k_nearest_neighbors_algorithm.txt",
+    "words": 3084
+  },
+  {
+    "title": "Clustering",
+    "file": "clustering.txt",
+    "words": 128
+  },
+  {
+    "title": "Neural network (machine learning)",
+    "file": "neural_network_machine_learning.txt",
+    "words": 6649
+  },
+  {
+    "title": "Generative AI",
+    "file": "generative_ai.txt",
+    "words": 6655
+  },
+  {
+    "title": "Generative pre-trained transformer",
+    "file": "generative_pre_trained_transformer.txt",
+    "words": 1855
+  }
+]

@@ -1,0 +1,36 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B",
+  "dtype": "bfloat16",
+  "lora": {
+    "rank": 8,
+    "alpha": 16,
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj"
+    ],
+    "lr": 0.0002,
+    "epochs": 3,
+    "train_examples": 240
+  },
+  "test_examples": 60,
+  "base": {
+    "exact_match": 0.0,
+    "valid_json_rate": 0.983,
+    "field_accuracy": {}
+  },
+  "fine_tuned": {
+    "exact_match": 1.0,
+    "valid_json_rate": 1.0,
+    "field_accuracy": {
+      "action": 1.0,
+      "task": 1.0,
+      "date": 1.0,
+      "time": 1.0,
+      "priority": 1.0
+    }
+  },
+  "failure_examples": [],
+  "base_examples": []
+}

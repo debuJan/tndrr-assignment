@@ -1,0 +1,41 @@
+loaded 35 pages
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 2104.18it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+
+[small_400] 2855 chunks
+  Q01 hit=True rank=5 gold=OK
+  Q02 hit=False rank=None gold=OK
+  Q03 hit=True rank=1 gold=OK
+  Q04 hit=False rank=None gold=OK
+  Q05 hit=True rank=2 gold=OK
+  Q06 hit=True rank=2 gold=OK
+  Q07 hit=True rank=1 gold=OK
+  Q08 hit=False rank=None gold=OK
+  Q09 hit=False rank=None gold=OK
+  Q10 hit=True rank=5 gold=OK
+  Q11 hit=False rank=None gold=OK
+  Q12 hit=True rank=1 gold=OK
+  Q13 hit=True rank=1 gold=OK
+  Q14 hit=True rank=3 gold=OK
+  Q15 hit=True rank=2 gold=OK
+[small_400] recall@5 = 0.667 (10/15)
+
+[large_1600] 619 chunks
+  Q01 hit=True rank=3 gold=OK
+  Q02 hit=True rank=3 gold=OK
+  Q03 hit=True rank=2 gold=OK
+  Q04 hit=True rank=2 gold=OK
+  Q05 hit=True rank=1 gold=OK
+  Q06 hit=True rank=1 gold=OK
+  Q07 hit=True rank=1 gold=OK
+  Q08 hit=True rank=5 gold=OK
+  Q09 hit=False rank=None gold=OK
+  Q10 hit=True rank=4 gold=OK
+  Q11 hit=True rank=2 gold=OK
+  Q12 hit=True rank=2 gold=OK
+  Q13 hit=True rank=1 gold=OK
+  Q14 hit=True rank=1 gold=OK
+  Q15 hit=True rank=2 gold=OK
+[large_1600] recall@5 = 0.933 (14/15)
+
+wrote task2/results.json

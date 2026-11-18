@@ -1,0 +1,122 @@
+{
+  "F16": {
+    "label": "F16",
+    "load_s": 3.2,
+    "gen_s": 178.2,
+    "total_tokens": 584,
+    "tokens_per_sec": 3.3,
+    "peak_rss_mb": 1044.0,
+    "outputs": [
+      {
+        "prompt": "What is the capital of France?",
+        "output": "The capital of France is Paris. \n\nTo verify this, I will use a simple Python code snippet to confirm the capital city of France. I'll print out the capital city of France, which is Paris.\n\n```python\n# The capital city of France\ncapital_city = \"Paris\"\n\n# Print",
+        "tokens": 60
+      },
+      {
+        "prompt": "Explain photosynthesis in one sentence.",
+        "output": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy, usually from the sun, into chemical energy stored in glucose, and use the glucose as a source of energy for growth and reproduction.",
+        "tokens": 44
+      },
+      {
+        "prompt": "Write a haiku about rain.",
+        "output": "Raindrops dance on the ground,\nSoftly falling, a symphony of nature's song,\nNature's beauty in every drop. \n\n(10 points) \n\nHaiku inspired by the sound of raindrops falling on the ground, evoking the essence of nature's beauty and the peacefulness of",
+        "tokens": 60
+      },
+      {
+        "prompt": "What is 17 multiplied by 6?",
+        "output": "To find the product of 17 and 6, you simply add 17 to itself 6 times:\n\n17 + 17 + 17 + 17 + 17 + 17 = 17 * 6 = 102\n\nSo",
+        "tokens": 60
+      },
+      {
+        "prompt": "Name the three primary colours.",
+        "output": "The three primary colours are red, yellow, and blue. These colors are used in the primary colors of the rainbow, which are red, yellow, and blue. The other colors in the rainbow are green, orange, and purple. These colors are used in the secondary colors of the rainbow, which",
+        "tokens": 60
+      },
+      {
+        "prompt": "Write a Python function to reverse a string.",
+        "output": "The function should take a single string argument and return a new string that is the reverse of the input string. The function should handle both uppercase and lowercase letters, as well as special characters. Additionally, the function should ignore any non-alphanumeric characters in the input string and only consider the alphanumeric characters for",
+        "tokens": 60
+      },
+      {
+        "prompt": "Translate 'good morning' into Spanish.",
+        "output": "Good morning in Spanish is \"Buenos d\u00edas\". \n\nLet me explain:\n\n1. \"Buenos d\u00edas\" is the Spanish word for \"good morning\".\n2. The word \"Buenos\" means \"good\" in Spanish.\n3. \"D\u00edas\" means \"morning\"",
+        "tokens": 60
+      },
+      {
+        "prompt": "What is the largest planet in our solar system?",
+        "output": "The largest planet in our solar system is Jupiter. It is a gas giant planet located in the outer part of our solar system, approximately 14.4 times the diameter of Earth. Jupiter is known for its massive size, with its diameter measuring about 142,984 kilometers",
+        "tokens": 60
+      },
+      {
+        "prompt": "Give one practical tip for healthy sleep.",
+        "output": "One practical tip for healthy sleep is to establish a consistent sleep schedule. This means going to bed and waking up at the same time every day, even on weekends. This helps regulate your body's internal clock and can improve your sleep quality. Additionally, creating a relaxing bedtime routine can also help you wind",
+        "tokens": 60
+      },
+      {
+        "prompt": "Complete the sentence: The quick brown fox",
+        "output": "jumps over the lazy dog, and the dog is _________. The dog is barking. The quick brown fox jumps over the lazy dog, and the dog is barking. The quick brown fox jumps over the lazy dog, and the dog is barking. The quick brown fox jumps over the",
+        "tokens": 60
+      }
+    ]
+  },
+  "Q4_K_M": {
+    "label": "Q4_K_M",
+    "load_s": 2.5,
+    "gen_s": 136.3,
+    "total_tokens": 568,
+    "tokens_per_sec": 4.2,
+    "peak_rss_mb": 1044.0,
+    "outputs": [
+      {
+        "prompt": "What is the capital of France?",
+        "output": "The capital of France is Paris. It is the largest city in Europe and the third-largest city in the world by population. The city is located on the banks of the Seine River and is known for its rich history, beautiful architecture, and vibrant culture. Paris is home to many famous landmarks such",
+        "tokens": 60
+      },
+      {
+        "prompt": "Explain photosynthesis in one sentence.",
+        "output": "Photosynthesis is the process by which plants, algae, and some bacteria convert light energy into chemical energy, using carbon dioxide and water as reactants, and producing oxygen as a byproduct.",
+        "tokens": 38
+      },
+      {
+        "prompt": "Write a haiku about rain.",
+        "output": "Raindrops falling,\nSoft and gentle, a symphony of nature's song,\nNature's embrace, a gentle hug. \n\n(10/10) \n\n(10/10) \n\n(10/10) \n\n(10/10) \n\n(10",
+        "tokens": 60
+      },
+      {
+        "prompt": "What is 17 multiplied by 6?",
+        "output": "To find the product of 17 and 6, you simply multiply the two numbers together:\n\n\\[ 17 \\times 6 = 102 \\]\n\nSo, 17 multiplied by 6 equals 102.",
+        "tokens": 50
+      },
+      {
+        "prompt": "Name the three primary colours.",
+        "output": "The three primary colours are red, yellow, and blue. These colors are used in many different types of art and design. They are also used in many different types of lighting and displays. The primary colors are used to create the colors that we see in the world around us. They are also used",
+        "tokens": 60
+      },
+      {
+        "prompt": "Write a Python function to reverse a string.",
+        "output": "The function should take a single string argument and return a new string that is the reverse of the input string. Additionally, the function should handle cases where the input string is empty or contains only whitespace characters. The function should also handle cases where the input string contains special characters or numbers. The function should",
+        "tokens": 60
+      },
+      {
+        "prompt": "Translate 'good morning' into Spanish.",
+        "output": "Good morning in Spanish is \"Buenos d\u00edas\". \n\nLet me know if you need any clarification or have another question! \ud83d\udcda\u2728\u2728\n\n\u00a1Hola! \u00bfC\u00f3mo puedo ayudarte hoy? \ud83d\udcda\u2728\u2728\n\n\u00a1Hola! \u00bfC\u00f3mo puedo ayudarte hoy? \ud83d\udcda",
+        "tokens": 60
+      },
+      {
+        "prompt": "What is the largest planet in our solar system?",
+        "output": "The largest planet in our solar system is Jupiter. It is the fifth planet from the Sun and is known as the largest planet in the solar system. Jupiter is a gas giant with a diameter of about 142, 952 kilometers (87, 970 miles)",
+        "tokens": 60
+      },
+      {
+        "prompt": "Give one practical tip for healthy sleep.",
+        "output": "One practical tip for healthy sleep is to establish a regular sleep schedule. This means going to bed and waking up at the same time every day, even on weekends. This helps regulate your body's internal clock and can improve your sleep quality. Additionally, creating a comfortable sleep environment, such as a cool",
+        "tokens": 60
+      },
+      {
+        "prompt": "Complete the sentence: The quick brown fox",
+        "output": "jumps over the lazy dog, because it is a ________.\nThe quick brown fox jumps over the lazy dog, because it is a ________. \nThe quick brown fox jumps over the lazy dog, because it is a ________. \nThe quick brown fox jumps over the lazy dog, because it is",
+        "tokens": 60
+      }
+    ]
+  }
+}

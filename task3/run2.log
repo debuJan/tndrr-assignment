@@ -1,0 +1,33 @@
+F16 already present (994 MB)
+Q4_K_M already present (398 MB)
+
+=== F16: Qwen2.5-0.5B-Instruct-f16.gguf ===
+loaded in 3.2s, peak RSS after load: 1036 MB
+  [ 60 tok] 'What is the capital of France?' -> 'The capital of France is Paris. \n\nTo verify this, I will use a simple Python cod'
+  [ 44 tok] 'Explain photosynthesis in one sentence.' -> 'Photosynthesis is the process by which plants, algae, and some bacteria convert '
+  [ 60 tok] 'Write a haiku about rain.' -> "Raindrops dance on the ground,\nSoftly falling, a symphony of nature's song,\nNatu"
+  [ 60 tok] 'What is 17 multiplied by 6?' -> 'To find the product of 17 and 6, you simply add 17 to itself 6 times:\n\n17 + 17 +'
+  [ 60 tok] 'Name the three primary colours.' -> 'The three primary colours are red, yellow, and blue. These colors are used in th'
+  [ 60 tok] 'Write a Python function to reverse a string.' -> 'The function should take a single string argument and return a new string that i'
+  [ 60 tok] "Translate 'good morning' into Spanish." -> 'Good morning in Spanish is "Buenos días". \n\nLet me explain:\n\n1. "Buenos días" is'
+  [ 60 tok] 'What is the largest planet in our solar system?' -> 'The largest planet in our solar system is Jupiter. It is a gas giant planet loca'
+  [ 60 tok] 'Give one practical tip for healthy sleep.' -> 'One practical tip for healthy sleep is to establish a consistent sleep schedule.'
+  [ 60 tok] 'Complete the sentence: The quick brown fox' -> 'jumps over the lazy dog, and the dog is _________. The dog is barking. The quick'
+F16: 584 tokens in 178.2s = 3.3 tok/s, peak RSS 1044 MB
+
+=== Q4_K_M: Qwen2.5-0.5B-Instruct-Q4_K_M.gguf ===
+loaded in 2.5s, peak RSS after load: 1044 MB
+  [ 60 tok] 'What is the capital of France?' -> 'The capital of France is Paris. It is the largest city in Europe and the third-l'
+  [ 38 tok] 'Explain photosynthesis in one sentence.' -> 'Photosynthesis is the process by which plants, algae, and some bacteria convert '
+  [ 60 tok] 'Write a haiku about rain.' -> "Raindrops falling,\nSoft and gentle, a symphony of nature's song,\nNature's embrac"
+  [ 50 tok] 'What is 17 multiplied by 6?' -> 'To find the product of 17 and 6, you simply multiply the two numbers together:\n\n'
+  [ 60 tok] 'Name the three primary colours.' -> 'The three primary colours are red, yellow, and blue. These colors are used in ma'
+  [ 60 tok] 'Write a Python function to reverse a string.' -> 'The function should take a single string argument and return a new string that i'
+  [ 60 tok] "Translate 'good morning' into Spanish." -> 'Good morning in Spanish is "Buenos días". \n\nLet me know if you need any clarific'
+  [ 60 tok] 'What is the largest planet in our solar system?' -> 'The largest planet in our solar system is Jupiter. It is the fifth planet from t'
+  [ 60 tok] 'Give one practical tip for healthy sleep.' -> 'One practical tip for healthy sleep is to establish a regular sleep schedule. Th'
+  [ 60 tok] 'Complete the sentence: The quick brown fox' -> 'jumps over the lazy dog, because it is a ________.\nThe quick brown fox jumps ove'
+Q4_K_M: 568 tokens in 136.3s = 4.2 tok/s, peak RSS 1044 MB
+
+wrote task3/results.json
+SUMMARY: F16 3.3 tok/s, 1044.0 MB | Q4_K_M 4.2 tok/s, 1044.0 MB
